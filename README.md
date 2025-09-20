@@ -68,9 +68,12 @@ To run this project locally, follow these steps:
 |-- README.md             # This file
 ```
 
+
+
 <img width="1755" height="882" alt="image" src="https://github.com/user-attachments/assets/05a28b00-bf5b-41ee-b18e-95ab08a8075a" />
 <img width="1911" height="882" alt="image" src="https://github.com/user-attachments/assets/05ac5838-33a3-4ac1-9599-99f8a3589cb6" />
 <img width="1886" height="891" alt="image" src="https://github.com/user-attachments/assets/b5d492c6-a1f0-49a8-b891-88bb31aa29f7" />
 <img width="1834" height="843" alt="image" src="https://github.com/user-attachments/assets/258aa478-906a-4451-8115-2afed9fb3c62" />
+
 
 
