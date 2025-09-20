@@ -2,6 +2,13 @@
 
 This project is a modern, responsive website for "Mithai Junction," a fictional premium Indian sweets shop. It features a clean design, user authentication through Firebase, and multiple pages for showcasing products, company information, and online ordering.
 
+
+## Deployment
+
+The project is deployed on Vercel and can be accessed here:
+
+**[https://mithai-junction.vercel.app/](https://mithai-junction.vercel.app/)**
+
 ## Features
 
 -   **Responsive Design**: The website is fully responsive and works on various devices, including desktops, tablets, and mobile phones.
@@ -74,6 +81,7 @@ To run this project locally, follow these steps:
 <img width="1911" height="882" alt="image" src="https://github.com/user-attachments/assets/05ac5838-33a3-4ac1-9599-99f8a3589cb6" />
 <img width="1886" height="891" alt="image" src="https://github.com/user-attachments/assets/b5d492c6-a1f0-49a8-b891-88bb31aa29f7" />
 <img width="1834" height="843" alt="image" src="https://github.com/user-attachments/assets/258aa478-906a-4451-8115-2afed9fb3c62" />
+
 
 
 
