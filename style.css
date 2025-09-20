@@ -1,0 +1,324 @@
+* {
+  font-family: "Poppins";
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(135deg, #FEF7ED 0%, #FCD34D 100%);
+  color: #1F2937;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2em 0;
+}
+
+.screen-1 {
+  background: #fff;
+  padding: 2.5em;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(245, 158, 11, 0.10);
+  gap: 1.8em;
+  width: 100%;
+  max-width: 420px;
+  border: 1px solid #FCD34D;
+}
+
+.screen-1 .logo {
+  margin-top: 0em;
+}
+
+.screen-1 .email {
+  background: #FEF7ED;
+  box-shadow: 0 2px 8px rgba(245, 158, 11, 0.06);
+  padding: 1.2em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  border-radius: 15px;
+  color: #EA580C;
+  border: 2px solid #FCD34D;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  margin-top: 0;
+}
+
+.screen-1 .email:focus-within {
+  border-color: #F59E0B;
+  box-shadow: 0 4px 20px rgba(245, 158, 11, 0.12);
+}
+
+.screen-1 .email input {
+  outline: none;
+  border: none;
+  color: #1F2937;
+  font-size: 1em;
+  font-weight: 500;
+  background: transparent;
+}
+
+.screen-1 .email input::placeholder {
+  color: #F59E0B;
+  font-size: 0.95em;
+  opacity: 0.8;
+}
+
+.screen-1 .email ion-icon {
+  color: #F59E0B;
+  margin-bottom: -0.2em;
+  font-size: 1.1em;
+}
+
+.screen-1 .email label {
+  font-weight: 600;
+  font-size: 0.95em;
+  color: #EA580C;
+}
+
+.screen-1 .password {
+  background: #FEF7ED;
+  box-shadow: 0 2px 8px rgba(245, 158, 11, 0.06);
+  padding: 1.2em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  border-radius: 15px;
+  color: #EA580C;
+  border: 2px solid #FCD34D;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.screen-1 .password:focus-within {
+  border-color: #F59E0B;
+  box-shadow: 0 4px 20px rgba(245, 158, 11, 0.12);
+}
+
+.screen-1 .password input {
+  outline: none;
+  border: none;
+  color: #1F2937;
+  font-size: 1em;
+  font-weight: 500;
+  background: transparent;
+}
+
+.screen-1 .password input::placeholder {
+  color: #F59E0B;
+  font-size: 0.95em;
+  opacity: 0.8;
+}
+
+.screen-1 .password ion-icon {
+  color: #F59E0B;
+  margin-bottom: 0em;
+  font-size: 1.1em;
+}
+
+.screen-1 .password .show-hide {
+  margin-right: -5em;
+  cursor: pointer;
+}
+
+.screen-1 .password label {
+  font-weight: 600;
+  font-size: 0.9em;
+  color: #8B4513;
+}
+
+.screen-1 .login {
+  padding: 1.2em;
+  background: linear-gradient(90deg, #F59E0B 60%, #EA580C 100%);
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  font-weight: 700;
+  font-size: 1em;
+  transition: background 0.3s, box-shadow 0.3s, transform 0.2s;
+  box-shadow: 0 6px 20px rgba(245, 158, 11, 0.18);
+  margin-top: 0.5em;
+}
+
+.screen-1 .login:hover {
+  background: linear-gradient(90deg, #EA580C 60%, #F59E0B 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(245, 158, 11, 0.25);
+}
+
+.screen-1 .login:active {
+  transform: translateY(0);
+  box-shadow: 0 4px 15px rgba(245, 158, 11, 0.18);
+}
+
+.screen-1 .footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 0.95em;
+  color: #6B7280;
+  gap: 0.8em;
+  padding-bottom: 0;
+  text-align: center;
+}
+
+.screen-1 .footer a {
+  color: #F59E0B;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.screen-1 .footer a:hover {
+  color: #EA580C;
+  text-decoration: underline;
+}
+
+.screen-1 h2 {
+  font-family: 'Playfair Display', serif;
+  color: #F59E0B;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 0.5em;
+  letter-spacing: 1px;
+}
+
+.screen-1 p {
+  color: #6B7280;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 0.2em;
+}
+
+button {
+  cursor: pointer;
+}
+
+.login-with-google-btn {
+  transition: all 0.3s;
+  padding: 12px 16px 12px 42px;
+  border: 2px solid #FCD34D;
+  border-radius: 15px;
+  box-shadow: 0 2px 8px rgba(245, 158, 11, 0.08);
+  color: #EA580C;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: 'Inter', sans-serif;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTgiIGhlaWdodD0iMTgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBkPSJNMTcuNiA5LjJsLS4xLTEuOEg5djMuNGg0LjhDMTMuNiAxMiAxMyAxMyAxMiAxMy42djIuMmgzYTguOCA4LjggMCAwIDAgMi42LTYuNnoiIGZpbGw9IiM0Mjg1RjQiIGZpbGwtcnVsZT0ibm9uemVybyIvPjxwYXRoIGQ9Ik05IDE4YzIuNCAwIDQuNS0uOCA2LTIuMmwtMy0yLjJhNS40IDUuNCAwIDAgMS04LTIuOUgxVjEzYTkgOSAwIDAgMCA4IDV6IiBmaWxsPSIjMzRBODUzIiBmaWxsLXJ1bGU9Im5vbnplcm8iLz48cGF0aCBkPSJNNCAxMC43YTUuNCA1LjQgMCAwIDEgMC0zLjRWNUgxYTkgOSAwIDAgMCAwIDhsMy0yLjN6IiBmaWxsPSIjRkJCQzA1IiBmaWxsLXJ1bGU9Im5vbnplcm8iLz48cGF0aCBkPSJNOSAzLjZjMS4zIDAgMi41LjQgMy40IDEuM0wxNSAyLjNBOSA5IDAgMCAwIDEgNWwzIDIuNGE1LjQgNS40IDAgMCAxIDUtMy43eiIgZmlsbD0iI0VBNDMzNSIgZmlsbC1ydWxlPSJub256ZXJvIi8+PHBhdGggZD0iTTAgMGgxOHYxOEgweiIvPjwvZz48L3N2Zz4=);
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: 12px 11px;
+  margin-top: 1em;
+}
+
+.login-with-google-btn:hover {
+  border-color: #F59E0B;
+  box-shadow: 0 6px 20px rgba(245, 158, 11, 0.12);
+  color: #fff;
+  background-color: #F59E0B;
+}
+
+.login-with-google-btn:active {
+  background-color: #FCD34D;
+  color: #EA580C;
+}
+
+/* Quick login section styles */
+.quick-login-section {
+  background: linear-gradient(135deg, rgba(139, 69, 19, 0.05), rgba(210, 105, 30, 0.05));
+  padding: 1.5em;
+  border-radius: 15px;
+  border: 1px solid rgba(210, 105, 30, 0.2);
+  margin-bottom: 1em;
+}
+
+.quick-login-section h3 {
+  color: #8B4513;
+  text-align: center;
+  margin-bottom: 1em;
+  font-weight: 600;
+  font-size: 1.1em;
+}
+
+.quick-login-buttons {
+  display: flex;
+  gap: 1em;
+  margin-bottom: 1.5em;
+}
+
+.quick-login-btn {
+  flex: 1;
+  padding: 1em;
+  background: linear-gradient(135deg, #D2691E, #FF8C00);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 0.9em;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5em;
+  box-shadow: 0 4px 15px rgba(210, 105, 30, 0.3);
+}
+
+.quick-login-btn:hover {
+  background: linear-gradient(135deg, #FF8C00, #FFA500);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(210, 105, 30, 0.4);
+}
+
+.quick-login-btn ion-icon {
+  font-size: 1.3em;
+}
+
+.divider {
+  text-align: center;
+  position: relative;
+  margin: 1.5em 0;
+}
+
+.divider::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: rgba(139, 69, 19, 0.2);
+}
+
+.divider span {
+  background: white;
+  padding: 0 1em;
+  color: #8B4513;
+  font-weight: 600;
+  font-size: 0.9em;
+}
+
+.forgot-password {
+  text-align: center;
+  margin: 1em 0;
+}
+
+.forgot-password a {
+  color: #D2691E;
+  text-decoration: none;
+  font-size: 0.9em;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.forgot-password a:hover {
+  color: #FF8C00;
+  text-decoration: underline;
+}
+
+/* Responsive improvements */
+@media (max-width: 480px) {
+  .screen-1 {
+    margin: 1em;
+    padding: 1.2em;
+    max-width: none;
+  }
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Sweets - Mithai Junction</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-brand">
+                    <h1><a href="../afterlogin.html">Mithai Junction</a></h1>
+                    <span>Since 1985</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="../afterlogin.html" class="nav-link">Home</a></li>
+                    <li><a href="products.html" class="nav-link active">Products</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                    <li><a href="../index.html" class="nav-link order-btn">Log Out</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <h1>Our Sweet Selection</h1>
+                <p>Discover a world of authentic Indian sweets, crafted with love.</p>
+            </div>
+        </section>
+
+        <section class="products-section" style="padding: 4rem 0;">
+            <div class="container">
+                <div class="category-filter">
+                    <input type="text" id="searchInput" class="form-control" placeholder="Search by name..." style="padding: 0.75rem; border-radius: 25px; border: 2px solid var(--border); width: 300px;">
+                </div>
+                <div id="products-grid" class="products-grid">
+                    <!-- Products will be loaded here by JavaScript -->
+                    <p>Loading sweets...</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Mithai Junction</h3>
+                    <p>Bringing you the finest Indian sweets since 1985</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="admin.html">Admin</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p>📞 +91 98765 43210</p>
+                    <p>📧 info@mithaijunction.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Mithai Junction. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="../js/products.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+</html>

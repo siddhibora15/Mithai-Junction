@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Online - Mithai Junction</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-brand">
+                    <h1><a href="../index.html">Mithai Junction</a></h1>
+                    <span>Since 1985</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="../index.html" class="nav-link">Home</a></li>
+                    <li><a href="products.html" class="nav-link">Products</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                    <li><a href="order.html" class="nav-link order-btn active">Order Now</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <h1>Order Online</h1>
+                <p>Fresh sweets delivered to your doorstep</p>
+            </div>
+        </section>
+
+        <section class="order-content">
+            <div class="container">
+                <div class="order-grid">
+                    <div class="order-form">
+                        <h2>Place Your Order</h2>
+                        <form id="orderForm">
+                            <div class="form-section">
+                                <h3>Customer Details</h3>
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <input type="text" id="customerName" placeholder="Full Name" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="tel" id="customerPhone" placeholder="Phone Number" required>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" id="customerEmail" placeholder="Email Address" required>
+                                </div>
+                                <div class="form-group">
+                                    <textarea id="customerAddress" rows="3" placeholder="Delivery Address" required></textarea>
+                                </div>
+                            </div>
+
+                            <div class="form-section">
+                                <h3>Order Details</h3>
+                                <div class="form-group">
+                                    <select id="orderType" required>
+                                        <option value="">Select Order Type</option>
+                                        <option value="delivery">Home Delivery</option>
+                                        <option value="pickup">Store Pickup</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <input type="date" id="deliveryDate" required>
+                                </div>
+                                <div class="form-group">
+                                    <select id="timeSlot" required>
+                                        <option value="">Select Time Slot</option>
+                                        <option value="morning">Morning (9 AM - 12 PM)</option>
+                                        <option value="afternoon">Afternoon (12 PM - 4 PM)</option>
+                                        <option value="evening">Evening (4 PM - 8 PM)</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <textarea id="specialInstructions" rows="3" placeholder="Special Instructions (Optional)"></textarea>
+                                </div>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary">Place Order</button>
+                        </form>
+                    </div>
+
+                    <div class="order-summary">
+                        <h2>Order Summary</h2>
+                        <div id="cart-items">
+                            <p class="empty-cart">Your cart is empty. <a href="products.html">Browse products</a> to add items.</p>
+                        </div>
+                        <div class="order-total">
+                            <div class="total-row">
+                                <span>Subtotal:</span>
+                                <span id="subtotal">₹0</span>
+                            </div>
+                            <div class="total-row">
+                                <span>Delivery:</span>
+                                <span id="delivery-fee">₹50</span>
+                            </div>
+                            <div class="total-row total">
+                                <span>Total:</span>
+                                <span id="total">₹50</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div id="order-notification" class="form-notification">
+            <p>Order placed successfully! We'll contact you soon to confirm.</p>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Mithai Junction</h3>
+                    <p>Bringing you the finest Indian sweets since 1985</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p>📞 +91 98765 43210</p>
+                    <p>📧 info@mithaijunction.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Mithai Junction. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+    <script src="../js/order.js"></script>
